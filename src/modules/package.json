@@ -1,14 +1,19 @@
 {
   "name": "wpfui",
   "version": "1.0.0",
-  "description": "A JavaScript project using xml2js and xmldom.",
+  "private": true,
+  "description": "A JavaScript project using xml2js and fast-xml-parser.",
   "main": "index.js",
   "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "parse": "wpfui-parse"
   },
   "dependencies": {
     "xml2js": "^0.6.2",
-    "xmldom": "^0.8.10"
+    "fast-xml-parser": "^4.3.6"
   }
 }

@@ -26,5 +26,5 @@ const xml = fs.readFileSync(fullPath, "utf8");
 
 (async () => {
   const result = await parseXML(xml);
-  console.log(JSON.stringify(result.json, null, 2));
+  console.log(JSON.stringify(result, null, 2));
 })();
