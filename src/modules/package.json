@@ -1,0 +1,14 @@
+{
+  "name": "wpfui",
+  "version": "1.0.0",
+  "description": "A JavaScript project using xml2js and xmldom.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "xml2js": "^0.6.2",
+    "xmldom": "^0.8.10"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "WPFUI",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "WPFUI": {
+        "$path": "src"
+      }
+    }
+  }
+}
